@@ -1,4 +1,4 @@
-{{#match primary_tag.slug "!=" "the-sabbatical"}}
+{{^has tag="The Sabbatical, Education"}}
     <article class="gh-card {{post_class}}"{{#if primary_tag.accent_color}} style="--tag-color: {{primary_tag.accent_color}};"{{/if}}>
         <a class="gh-card-link" href="{{url}}">
 
@@ -52,4 +52,4 @@
 
         </a>
     </article>
-{{/match}}
+{{/has}}
